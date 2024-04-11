@@ -36,6 +36,11 @@ ReactDOM.createRoot(rootElement).render(
           "react-dom": "latest",
           "react-scripts": "latest",
         },
+        devDependencies: {
+          "@types/react": "latest",
+          "@types/react-dom": "latest",
+          typescript: "latest",
+        },
       }}
     />
   );
