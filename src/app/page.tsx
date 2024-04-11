@@ -3,7 +3,7 @@ import { Sandpack } from "@codesandbox/sandpack-react";
 
 const App = () => {
   const files = {
-    "App.js": `import React from "react";
+    "App.tsx": `import React from "react";
 import * as ReactDOM from "react-dom/client";
 import { ChakraProvider, Button} from "@chakra-ui/react";
 
@@ -23,7 +23,7 @@ ReactDOM.createRoot(rootElement).render(
   return (
     <Sandpack
       files={files}
-      template="react"
+      template="react-ts"
       options={{ editorHeight: "400px" }}
       customSetup={{
         dependencies: {
